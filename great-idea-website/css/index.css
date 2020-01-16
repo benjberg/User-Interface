@@ -6,27 +6,32 @@
 	padding:0;
 	margin:0;
 	max-width: 100%;
-	border: 2px solid black; 
+	 /* border: 1px solid black;   */
+	width: 1000px;
+
 }
 /* header styles*/
-body{margin: 1% 4% 6%;}
+
 .headerdiv{
 	display: inline-block;
 	width: 100%;
-	height:100%;
+	height:36px;
+	position: relative;
 	
 	
 }
 .logo{
-margin-left: 79%;
-margin-top: -10%;
+height:36px;
+width: 183px;
+right: 0;
+position: absolute;
 
 }
 nav{
 	display: inline-block;
-margin-top: 1em;
+line-height:2;
 word-spacing: 4em;
-margin-left: 3%;
+
 }
 a {
 	color: grey;
@@ -36,46 +41,136 @@ a {
 #sectionOne{
 	display: inline-block;
 	width:100%;
-	height: 367px;
+	height: 371px;
 	position: relative;
+	margin-top: 5em;
 }
 #boxone{
 	display: inline;
 	width:50%;
 	height: 100%;
-	
+	position: absolute;
+	text-align: center;
+	padding-top:3em;
 }
  #boxonetwo{
 	 display:inline;
 	 width: 371px;
 	 height:371px;
 	 position:absolute;
-	right: 1em;
+	right: 0em;
 	bottom:0em;
+	
 
 
 }
-
+section{
+	margin-top: 5em;
+	height:510px;
+	
+}
 #boxone p{
 	display: inline;
 	font-family: 'Luckiest Guy', cursive;
 	height: 379px;
 	width: 379px; 
-	font-size: 4em;
+	font-size: 3em;
 	text-transform: uppercase;
 	text-align: center;
 	
 }
-.mid p{
-	text-align: center;
-}
-button{
-	display: inline;
-}
 
-
-
-/* SECTION STYLE*/
-section{
+button {
 	display: inline-block;
+	height: 20px;
+	width: 120px;
+	background:white;
+	border: 1px solid black;
+	
+}
+ .hr-1{
+	position:absolute;
+	
+	margin-top:4em;
+	
+
+ }
+
+
+/* SECTION 2 STYLE*/
+h2{
+	font-family: 'Luckiest Guy', cursive;
+}
+	
+}
+#sectionTwo{
+	width:100%;
+	height: 500px;
+	display: inline-block;
+	
+
+}
+.features{
+	display: inline;
+	height: 100%;
+	width:450px;
+	position:absolute ;
+	right:35em;
+	
+}
+.about{
+	display: inline;
+	height: 100%;
+	width:450px;
+	position: absolute;
+	left:0;
+}
+.middle-img{
+display: inline-block;
+	margin-top:8em;
+	margin-bottom: 1em;
+
+}
+/* section 3 */
+
+#sec-3-Cont {
+	width:100%;
+	height:200px;
+	display: inline-block;
+}
+.box-3-1{
+	display: inline-block;
+	height: 100%;
+	width:320px;
+	position:absolute;
+
+}
+.box-3-2{
+	display: inline;
+	height: 100%;
+	width:320px;
+	position:absolute;
+	right:54em;
+	
+}
+.box-3-3{
+	display: inline;
+	height: 100%;
+	width:320px;
+	position: absolute;
+	right:33em;
+}
+.hr2{
+margin-bottom: 2em;
+}
+/* footer style */
+footer{
+	display: inline;
+	height:156px;
+	margin-top: 40em;
+
+	display: relative;
+}
+.copyright {
+text-align:center;
 }
